@@ -869,9 +869,9 @@ h2 {
     }
 
     .header-txt-a {
-        font-family: cf-22-l;
+        font-family: cf-22-n;
         font-size: 2.25rem;
-        line-height: 1.2;
+        line-height: 1.4;
         font-weight: 300;
         text-align: center;
         text-transform: none;
@@ -916,8 +916,4 @@ h2 {
     .center-ab {
         grid-area: 1 / 3 / 2 / 4;
     }
-}
-
-.hid {
-    display: ;
 }

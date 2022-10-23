@@ -2170,8 +2170,8 @@ textarea.w-select {
 .top-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    height: 60vh;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
 }
 
 @media only screen and (max-width:767px) {

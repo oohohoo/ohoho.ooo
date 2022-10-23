@@ -863,8 +863,8 @@ h2 {
 
     .header-txt-wrapper.right {
         /* grid-area: 4 / 2 / 3 / 5; */
-        left: 0;
-        right: 0;
+        /* left: 0 */
+        right: 1.25rem;
         text-align: center;
     }
 
@@ -884,6 +884,8 @@ h2 {
     }
 
     .logo-wrapper {
+        left: 1.25rem;
+
         /* grid-area: 1 / 6 / 1 / 1; */
     }
 }
@@ -904,7 +906,7 @@ h2 {
 
 @media only screen and (max-width:990px) {
     .right-ab {
-        grid-area: 3 / 2 / 4 / 5;
+        grid-area: 1 / 3 / 2 / 6;
     }
 
     .left-ab {
@@ -914,10 +916,6 @@ h2 {
     }
 
     .center-ab {
-        grid-area: 1 / 3 / 2 / 4;
+        grid-area: 1 / 1 / 2 / 2;
     }
-}
-
-.hid {
-    display: ;
 }

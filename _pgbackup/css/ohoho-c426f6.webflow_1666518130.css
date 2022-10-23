@@ -908,6 +908,7 @@ h2 {
     }
 
     .left-ab {
+        display: none;
         grid-area: 2 / 2 / 3 / 5;
         display: flex;
         justify-content: center;
@@ -919,5 +920,5 @@ h2 {
 }
 
 .hid {
-    display: ;
+    display: none;
 }

@@ -2157,22 +2157,7 @@ textarea.w-select {
 }
 
 @media only screen and (max-width:990px) {
-    /* .left {
-    } */
-}
-
-@media only screen and (max-width:768px) {
-    .header-wrapper {
-        grid-template-columns: 1fr;
+    .header-txt-wrapper.left {
+        position: relative;
     }
-}
-
-.top-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    height: 60vh;
-}
-
-@media only screen and (max-width:767px) {
 }

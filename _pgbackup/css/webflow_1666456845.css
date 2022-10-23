@@ -2166,13 +2166,3 @@ textarea.w-select {
         grid-template-columns: 1fr;
     }
 }
-
-.top-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    height: 60vh;
-}
-
-@media only screen and (max-width:767px) {
-}

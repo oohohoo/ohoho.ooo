@@ -463,6 +463,15 @@ h2 {
     white-space: nowrap;
 }
 
+.header-txt-mo {
+    display: inline-block;
+    font-size: 0.75rem;
+    letter-spacing: 0.018em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+
 .header-txt.rolling-text {
     margin-left: 0.1rem;
 }
@@ -892,6 +901,12 @@ h2 {
     position: relative;
 }
 
+.left-ab-mob {
+    position: relative;
+    display:none;
+}
+
+
 .center-ab {
     position: relative;
     grid-area: 1 / 2 / 2 / 3;
@@ -908,16 +923,18 @@ h2 {
     }
 
     .left-ab {
+        display: none;
         grid-area: 2 / 2 / 3 / 5;
         display: flex;
         justify-content: center;
     }
 
+.left-ab-mob {
+    display: show;
+    position: relative;
+}
+
     .center-ab {
         grid-area: 1 / 3 / 2 / 4;
     }
-}
-
-.hid {
-    display: ;
 }
