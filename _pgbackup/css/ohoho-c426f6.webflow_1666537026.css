@@ -155,8 +155,9 @@ h2 {
     position: fixed;
     width: 100%;
     z-index: 1;
-    user-select: none;
-    pointer-events: none;
+
+    /* user-select: none */
+    /* pointer-events: none */
 }
 
 .svg-sizer {
@@ -924,8 +925,7 @@ h2 {
     }
 
     .center-ab {
-        grid-area: 1 / 2 / 2 / 5;
-        min-height: 2rem;
+        grid-area: 1 / 3 / 2 / 4;
     }
 }
 
@@ -940,7 +940,7 @@ h2 {
 @media only screen and (max-width:990px) {
     .cta.mobile {
         display: flex;
-        grid-area: 2 / 1 / 3 / 6;
+        grid-area: 2 / 2 / 3 / 5;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -953,7 +953,8 @@ h2 {
         border-radius: 40px;
         z-index: 100000;
         grid-area: 1 / 1 / 3 / 2;
-        border: 2px solid #B6FA00;
+        border: 1px solid #B6FA00
+;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -997,13 +998,11 @@ h2 {
 }
 
 @media only screen and (max-width:478px) {
-    .mobile-cta-txt {
-        font-size: 2.25rem;
-        line-height: 1.2;
+    .mobile-cta-top-txt {
     }
 
-    .mobile {
-        grid-area: 1 / 3 / 2 / 4;
+    .mobile-cta-txt {
+        font-size: 2.5rem;
     }
 }
 
