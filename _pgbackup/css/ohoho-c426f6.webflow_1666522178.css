@@ -939,8 +939,6 @@ h2 {
         grid-area: 2 / 2 / 3 / 5;
         text-align: center;
         justify-content: center;
-        align-items: center;
-        flex-direction: column;
     }
 
     .cta-mobile-button {
@@ -960,7 +958,7 @@ h2 {
 .mobile-cta-txt {
     /* width: 100% */
     font-family: cf-22-n;
-    font-size: 3.2rem;
+    font-size: 3rem;
     line-height: 1.2;
     font-weight: 300;
     text-align: center;
@@ -982,12 +980,6 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-@media only screen and (max-width:990px) {
-    .mobile-cta-top-txt {
-        margin-bottom: 2rem;
-    }
 }
 
 
